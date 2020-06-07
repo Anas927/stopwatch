@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,400,700');
+body {
+    background: beige;
+    height: 100%;
+}
+
+.wrapper,
+.buts {
+    width: 800px;
+    margin: 30px, auto;
+    color: brown;
+    text-align: center;
+}
+
+h2 {
+    font-family: sans-serif;
+    font-weight: 100;
+    font-size: 2em;
+    text-transform: uppercase;
+}
+
+#seconds,
+#tens,
+#dots {
+    font-size: 2em;
+    font-weight: 100;
+}
+
+button {
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    background: coral;
+    color: #fff;
+    border: 1px solid white;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 2em;
+    padding: 10px, 18px;
+    width: 150px;
+    margin: 10px;
+    outline: none;
+    margin-top: 30px;
+}
+
+button:hover {
+    transition: all 0.5s ease-in-out;
+    background: #fff;
+    border: solid 1px #fff;
+    color: coral;
+}
